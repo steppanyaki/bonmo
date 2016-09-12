@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url(https://cloud.githubusercontent.com/assets/20543073/18398065/01d6c254-7699-11e6-98e3-506e2291f7df.png);
+  background-size: cover;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main {
+}
+
+.main h1 {
+    font-weight: bolder;
+    color: #ffab50;
+    top: 10px;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.main h2 {
+    text-align: right;
+    position: relative;
+    margin-right: -60px;
+    top: 80px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main p {
+    position: relative;
+    color: #fff;
+    top: 300px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0px;
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: lightgray;
+    font-weight: 200
+}
+
+span {
+    color: #ffab50;
+}
+
+ #mc_embed_signup {
+    position: relative;
+    top: 300px; 
+    background: none; 
+    color: #fff; 
+    font: 14px 'Raleway',sans-serif;  
+    width: 300px;
+}
+
+.required_email {
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+    background: none;
+    border-radius: 0px !important;
+}
+
+.required_email:hover {
+    border-bottom: 1px solid #ffab50 !important;
+}
+
+li:hover {
+    color: #ffab50;
+}
+
+input.button {
+    background: black !important;
+    border-radius: 0px !important;
+    border: 1px solid #fff;
+}
+
+input.button:hover {
+    background: #ffab50 !important;
+}
+
+
+
+
