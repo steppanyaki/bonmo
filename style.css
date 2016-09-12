@@ -83,6 +83,10 @@ span {
     border-bottom: 1px solid #ffab50 !important;
 }
 
+li {
+    line-height: 2;
+}
+
 li:hover {
     color: #ffab50;
 }
