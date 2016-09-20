@@ -12,8 +12,8 @@ html, body {
   background-position: center;
   background-attachment: fixed;
   background-image:linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)), url(https://cloud.githubusercontent.com/assets/20543073/18462311/32bba75a-794f-11e6-9e29-b6eb07c1e170.jpg);
+      rgba(0, 0, 0, 0.7), 
+      rgba(12, 12, 12, 0.7)), url(https://cloud.githubusercontent.com/assets/20543073/18684527/87b108ba-7f42-11e6-8ae8-900bb989ee57.jpg);
   background-size: cover;
 }
 
@@ -26,11 +26,10 @@ html, body {
 .main h1 {
     color: #fff;
     position: relative;
-    font-family: 'Lobster', sans-serif;
-    top: 150px;
+    font-family: 'Kanit', sans-serif;
+    top: 190px;
     text-align: right;
-    font-size: 100px;
-    text-transform: capitalize;
+    font-size: 130px;
 }
 
 .main h2 {
@@ -40,34 +39,31 @@ html, body {
     font-size: 28px;
     font-weight: 300;
     letter-spacing: 1px;
-    right: -40px;
+    right: -10px;
     text-transform: uppercase;
 }
 
-.row3 {
-    position: relative;
-    top: 300px;
-}
 .main p {
     position: relative;
     color: #fff;
     font-size: 20px;
     font-weight: 200;
     letter-spacing: 0px;
-    left: 10px;
+    left: -10px;
 }
 
 span {
     color: #ffab50;
 }
 
- #mc_embed_signup {
-    position: relative;
-    background: none; 
-    color: #fff;
-    font: 16px 'Raleway',sans-serif;  
-    text-align: center;
-    width: 400px;
+ #mc_embed_signup{
+     background: none; 
+     position: relative;
+     color: #fff;
+     clear:left; 
+     font:14px 'Raleway',Arial,sans-serif; 
+     width:100%;
+     top: 250px;
 }
 
 .mc-field-group {
@@ -77,22 +73,20 @@ span {
 .required_email {
     border: none !important;
     border-bottom: 1px solid #fff !important;
-    background: none;
+    background: #fff;
     border-radius: 0px !important;
-}
-
-.required_email:hover {
-    border-bottom: 1px solid #ffab50 !important;
+    display: inline-block;
 }
 
 input.button {
-    background: black !important;
+    background: #ee7720 !important;
     border-radius: 0px !important;
     border: 1px solid #fff;
 }
 
 input.button:hover {
     background: #ffab50 !important;
+    display: inline-flex;
 }
 
 @media (max-width: 500px) {
