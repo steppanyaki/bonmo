@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
         <!-- Mailchimp link -->
         <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-        <link rel='stylesheet' href='style_2.css'/>
+        <link rel='stylesheet' href='style.css'/>
         <title>Uproar: The Only Marketplace for Funny</title>
     </head>
     <body>
@@ -37,18 +37,16 @@
                         </form>
                     </div>
                     <!--End mc_embed_signup-->
-                    <p>Are you a marketer, agency, publisher, or comedy fan? Stay in touch with us here.</p>
-                    <button id="open-popup">Subscribe to our mailing list</button>
+                    <button class="marketer-btn" onclick="showMailingPopUp()">Are you a marketer, agency, publisher, or comedy fan? Stay in touch with us here.</button>
                     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+                    <script>
+                    function showMailingPopUp() {
+                        require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"716022f4dee4bbc0e29207488","lid":"956bd0d4fe"}) })
+                        document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                    };
 
-<script>
-function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"716022f4dee4bbc0e29207488","lid":"956bd0d4fe"}) })
-    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-};
-
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-</script>
+                    document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+                    </script>
                 </div>            
         </div>
     

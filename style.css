@@ -66,7 +66,7 @@ span {
 }
 
 h4 {
-    font: 17px 'Ubuntu', sans-serif;
+    font: 18px 'Ubuntu', sans-serif;
     font-weight: 300;
 }
 
@@ -93,11 +93,19 @@ input.button:hover {
     display: inline-flex;
 }
 
-.footer p {
-    color: #fff;
+.marketer-btn {
     position: relative;
-    bottom: -10px;
+    background: none;
+    color: #fff;
+    border: none;
+    margin: auto;
     text-align: center;
+    bottom: -10px;  
+    left: 80px;
+}
+
+.marketer-btn:hover {
+    color:  #ffab50;
 }
 
 @media (max-width: 500px) {
