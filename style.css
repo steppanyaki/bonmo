@@ -25,15 +25,14 @@ html, body {
     color: #ffab50;
     position: relative;
     font-family: 'Kanit', sans-serif;
-    text-align: left;
-    font-size: 70px;
-    left: 30px;
+    text-align: center;
+    font-size: 150px;
     top: -50px;
 }
 
 .main h2 {
     position: relative;
-    top: 230px;
+    top: 170px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #fff;
