@@ -11,8 +11,8 @@ html, body {
   height: 100%;
   background-position: center;
   background-image:linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(12, 12, 12, 0.6)), url(https://cloud.githubusercontent.com/assets/20543073/18684527/87b108ba-7f42-11e6-8ae8-900bb989ee57.jpg);
+      rgba(0, 0, 0, 0.7), 
+      rgba(12, 12, 12, 0.8)), url(https://cloud.githubusercontent.com/assets/20543073/18757480/159dc98a-80c2-11e6-8d53-abfb9ec6e440.jpg);
   background-size: cover;
 }
 
@@ -22,23 +22,24 @@ html, body {
 }
 
 .main h1 {
-    color: #fff;
+    color: #ffab50;
     position: relative;
     font-family: 'Kanit', sans-serif;
-    text-align: center;
-    font-size: 100px;
-    top: -70px;
+    text-align: left;
+    font-size: 70px;
+    left: 30px;
+    top: -50px;
 }
 
 .main h2 {
     position: relative;
-    top: -70px;
+    top: 230px;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #fff;
-    font: 28px;
-    font-weight: 300;
+    font-size: 50px;
+    font-weight: 700;
     letter-spacing: 1px;
-    text-transform: uppercase;
 }
 
 .footer {
@@ -60,14 +61,15 @@ span {
      position: relative;
      color: #fff;
      text-align: center;
-     font: 14px 'Ubuntu', sans-serif;
+     font: 14px 'Raleway', sans-serif;
      width:100%;
      top: 10px;
 }
 
 h4 {
-    font: 18px 'Ubuntu', sans-serif;
-    font-weight: 300;
+    font: 15px 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .mc-field-group {
