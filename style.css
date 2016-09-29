@@ -11,8 +11,8 @@ html, body {
   height: 100%;
   background-position: center;
   background-image:linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(12, 12, 12, 0.8)), url(https://cloud.githubusercontent.com/assets/20543073/18757480/159dc98a-80c2-11e6-8d53-abfb9ec6e440.jpg);
+      rgba(0, 0, 0, 0.6), 
+      rgba(12, 12, 12, 0.6)), url(https://cloud.githubusercontent.com/assets/20543073/18931500/81accfae-859a-11e6-91df-fc578febd471.jpg);
   background-size: cover;
 }
 
@@ -21,23 +21,22 @@ html, body {
     padding: 0 10px;
 }
 
-.main h1 {
-    color: #ffab50;
+.logo {
     position: relative;
-    font-family: 'Kanit', sans-serif;
+    top: -80px;
+    left: 250px;
+    width: 700px;
     text-align: center;
-    font-size: 150px;
-    top: -50px;
 }
 
 .main h2 {
     position: relative;
-    top: 170px;
-    font-family: 'Raleway', sans-serif;
+    top: 200px;
+    font-family: Helvetica, sans-serif;
     text-align: center;
     color: #fff;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -54,7 +53,12 @@ html, body {
 span {
     color: #ffab50;
 }
-
+span2 {
+    text-decoration: underline;
+}
+span2:hover {
+    color: #ffab50;
+}
  #mc_embed_signup{
      background: none;
      position: relative;
@@ -64,29 +68,37 @@ span {
      width:100%;
      top: 10px;
 }
-
 h4 {
-    font: 15px 'Raleway', sans-serif;
+    position: relative;
+    font: 18px 'Raleway', sans-serif;
     font-weight: 400;
-    text-transform: uppercase;
+    width: 950px;
+    left: -100px;
+    text-align: center;
 }
-
 .mc-field-group {
     line-height: 20px;
 }
-
 .email {
     border: none !important;
-    border: 2px solid #ee7720 !important;
+    border: 2px solid #009eed !important;
     background: #fff;
     border-radius: 0px !important;
     display: inline-block;
 }
 
+.email:hover {
+    border: 2px solid #ffab50 !important;
+}
+
 input.button {
-    background: #ee7720 !important;
+    background: #009eed !important;
     border-radius: 0px !important;
     border: 1px solid #fff;
+    font-family: 'Helvetic', sans-serif;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
 }
 
 input.button:hover {
@@ -97,16 +109,14 @@ input.button:hover {
 .marketer-btn {
     position: relative;
     background: none;
-    color: #fff;
+    color: #bdbdbd;
     border: none;
+    width: 900px;
+    font-weight: 100;
     margin: auto;
     text-align: center;
     bottom: -10px;  
-    left: 80px;
-}
-
-.marketer-btn:hover {
-    color:  #ffab50;
+    left: -90px;
 }
 
 @media (max-width: 500px) {
