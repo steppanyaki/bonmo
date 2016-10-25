@@ -22,16 +22,14 @@ html, body {
 }
 
 .logo {
-    position: relative;
-    top: -80px;
-    left: 250px;
-    width: 700px;
-    text-align: center;
+    height: 200px;
+    margin: -50px 400px;
 }
 
-.main h2 {
+.slogan {
     position: relative;
-    top: 200px;
+    margin: 300px auto;
+    width: 100%;
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: #fff;
@@ -103,7 +101,7 @@ input.button {
 
 input.button:hover {
     background: #ffab50 !important;
-    display: inline-flex;
+    display: inline;
 }
 
 .marketer-btn {
