@@ -12,7 +12,7 @@ html, body {
   background-position: center;
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.6), 
-      rgba(12, 12, 12, 0.6)), url(https://cloud.githubusercontent.com/assets/20543073/18931500/81accfae-859a-11e6-91df-fc578febd471.jpg);
+      rgba(12, 12, 12, 0.6)), url("images/cover.jpg");
   background-size: cover;
 }
 
