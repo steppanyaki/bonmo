@@ -1,53 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="//fonts.googleapis.com/css?family=Kanit&subset=latin" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100, 300, 400, 700, 900" rel="stylesheet">
-        <!-- Bootstrap link -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- Mailchimp link -->
-        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-        <link rel='stylesheet' href='style.css'/>
-        <title>Uproar: The Only Marketplace for Funny</title>
-    </head>
-    <body>
-        <div class="jumbotron" body scroll="no" style="overflow: hidden">
-            
-                    <img class="logo" src="images/logo.png">
-                    <h2 class="slogan">the only marketplace for <span>funny</span>. coming soon.</h2>
-        
-        </div>
-            
-        <div class="footer">
-            
-                <div class="col-lg-6 col-lg-offset-3">
-                    <!-- Begin MailChimp Signup Form -->
-                    <div id="mc_embed_signup">
-                        <form action="//levitydept.us3.list-manage.com/subscribe/post?u=716022f4dee4bbc0e29207488&amp;id=8afa54699b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL"><h4>Want to make money being funny? Join our growing roster of comics (No spam - we promise!)</h4></label>
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_716022f4dee4bbc0e29207488_8afa54699b" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <!--End mc_embed_signup-->
-                    <button class="marketer-btn" onclick="showMailingPopUp()">Marketers, publishers, comedy fans, investors, press: To receive updates on our progress, go <span2>here</span2>. Or contact us directly at <a href="mailto:hello@uproar.lol">hello@uproar.lol</a></button>
-                    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-                    <script>
-                    function showMailingPopUp() {
-                        require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"716022f4dee4bbc0e29207488","lid":"956bd0d4fe"}) })
-                        document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-                    };
 
-                    document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-                    </script>
-                </div>            
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.1.1.js'></script>
+    <script type='text/javascript' src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css' />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600,800" rel="stylesheet">
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <title>Uproar: The Only Marketplace for Funny</title>
+</head>
+
+<body>
+    <header>
+        <!--<div class="row">
+            
+        </div>-->
+    </header>
+    <div class="jumbotron">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="logo">
+                    <img src="img/logo.png" alt="uproar">
+                </div>
+                <!-- Comedians Signup -->
+                <div class="col col-sm-6" id="comedians">
+
+                    <div class="content">
+                        <h1>COMEDIANS</h1>
+                        <p>Uproar is the new way to make money being funny. Interested in joining our growing roster of comics? (no spam—we promise)</p>
+
+
+                        <!-- Begin MailChimp Signup Form -->
+
+                        <div id="mc_embed_signup">
+                            <form action="//lol.us3.list-manage.com/subscribe/post?u=716022f4dee4bbc0e29207488&amp;id=8afa54699b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <label for="mce-EMAIL"></label>
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="example@email.com" required>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_716022f4dee4bbc0e29207488_8afa54699b" tabindex="-1" value="">
+                                    </div>
+                                    <div class="clear">
+                                        <input type="submit" value="Contact Me" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!--End mc_embed_signup-->
+
+                    </div>
+
+                </div>
+
+                <!-- Comic Fans Signup -->
+                <div class="col col-sm-6" id="fans">
+                    <div class="content">
+                        <h1>COMIC FANS</h1>
+                        <p>Uproar pays passionate comedy fans to discover and share what’s funny. Only for those with 1k+ social media connections*</p>
+
+                        <!-- Begin MailChimp Signup Form -->
+
+                        <div id="mc_embed_signup">
+                            <form action="//lol.us3.list-manage.com/subscribe/post?u=716022f4dee4bbc0e29207488&amp;id=956bd0d4fe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <label for="mce-EMAIL"></label>
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="example@email.com" required>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_716022f4dee4bbc0e29207488_956bd0d4fe" tabindex="-1" value="">
+                                    </div>
+                                    <div class="clear">
+                                        <input type="submit" value="Contact Me" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End mc_embed_signup-->
+                    </div>
+                </div>
+            </div>
         </div>
-    
-    </body>
-    
-                                               
+
+    </div>
+    <footer>
+        <div class="row">
+            <p>marketers, publishers, press: join our mailing list here or contact us directly at <a href="mailTo:inquiries@uproar.lol">inquiries@uproar.lol</a></p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
 </html>
